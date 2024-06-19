@@ -1,0 +1,25 @@
+//string conversion
+let name = 'sam';
+let val = 5679
+
+//convert to num
+name =parseInt(name);
+console.log(name)
+console.log(val);
+val =  val.toString();
+
+console.log(val,'after conversion')
+console.log(typeof name);
+let a=5;
+console.log(typeof a=='5')
+console.log(a==='5')
+const b= 'fred'
+console.log(b);
+b='clin'
+console.log(b);
+
+/**
+ primitive: string,number,undefined,null,boolean,symbol,isBigInt
+ Reference: object ,function, array
+
+ */
